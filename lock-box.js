@@ -8,6 +8,6 @@ let unlockCode = prompt('What is the Passcode? ');
 
 if (unlockCode == passCode) {
   console.log('Success!');
-} else if (unlockCode != passCode) {
+} else {
   console.log('Failure!');
 }
